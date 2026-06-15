@@ -1,0 +1,43 @@
+body{
+    font-family: Arial, sans-serif;
+    margin:20px;
+    background-color: black;
+    color: white;
+}
+
+nav a{
+    margin-right:15px;
+    text-decoration:none;
+}
+
+.container{
+    display:flex;
+    margin:20px;
+}
+
+.column{
+    width:50%;
+    border:1px solid #ccc;
+    padding:15px;
+}
+.person{
+    float:left;
+    width:22%;
+    margin:10px;
+    border:1px solid #ccc;
+    padding:10px;
+    text-align:center;
+}
+
+.team-container{
+    overflow:auto;
+}
+
+.clear{
+    clear:both;
+}
+
+input[type='text'], input[type='email'],input[type='password'] ,select, textarea{
+    width:200px;
+    padding:8px;
+}
